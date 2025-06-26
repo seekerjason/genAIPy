@@ -26,9 +26,11 @@ async def generate_character(name: str):
     )
     return result.output
 
+'''
 async def main() -> None:
     reps=await generate_character('Goblorb')
 
     print(json.dumps(reps, indent=2))
 
 ai.run_main(main())
+'''
